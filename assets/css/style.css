@@ -1,0 +1,50 @@
+.header {
+    grid-area: header;
+    background-color: blue;
+    font-size: 30px;
+    color: aliceblue;
+    }
+.nav {
+    grid-area: nav;
+    background-color: blue;
+    font-size: 30px;
+    color: aliceblue;
+}
+.aside {
+    grid-area: aside;
+    background-color: blue;
+    font-size: 30px;
+    color: aliceblue;
+ }
+.main {
+    grid-area: main;
+    background-color: blue;
+    font-size: 30px;
+    color: aliceblue;
+}
+.article {
+    grid-area: article;
+    background-color: blue;
+    font-size: 30px;
+    color: aliceblue;
+}
+.footer {
+    grid-area: footer;
+    background-color: blue;
+    font-size: 30px;
+    color: aliceblue;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 50% 1fr;
+    grid-template-areas:
+    'header header header' 
+    'nav nav nav'
+    'aside main article'
+    'footer footer footer';
+    gap: 10px;
+    height: 500px;
+ }
+ .box {
+    justify-content: center;
+ }
